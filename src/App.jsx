@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
     }
   }
 
-  const handleChange = (e, edit) => {
+  const handleChange = (e) => {
 
     setNewEntry(e.target.value)
 
@@ -85,7 +85,7 @@ function App() {
         onChange={(e) => handleChange(e)} 
         placeholder="Add entry" 
         /> 
-<script>alert('XSS');</script>
+{/* <script>alert('XSS');</script> */}
 
 
         <br />
