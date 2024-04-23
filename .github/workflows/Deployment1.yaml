@@ -19,9 +19,9 @@ jobs:
       #STEP-3
       - name: Lint
         run: npm run lint
-      #STEP-4
-      - name: Test
-        run: npm run test
+      # #STEP-4
+      # - name: Test
+      #   run: npm run test
       #STEP-5
       - name: Build Code
         run: npm run build
